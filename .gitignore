@@ -1,0 +1,19 @@
+# Python environments and generated runtime files
+**/.venv/
+**/venv/
+**/__pycache__/
+*.py[cod]
+Host/dataset_stm32/
+Host/stm32_model*.h5
+Host/stm32_model_scaler.npz
+
+# Keil user state and build products
+*.uvoptx
+*.uvguix.*
+Objects/
+Listings/
+*.bak.*
+
+# Local captures and model artifacts
+*.npy
+*.npz
